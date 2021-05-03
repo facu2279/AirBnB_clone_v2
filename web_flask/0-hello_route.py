@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Write a script that starts a Flask web application """
+""" Made by Facundo Diaz for Holberton School 2021 """
 from flask import Flask
 
 
@@ -9,7 +9,7 @@ app.url_map.strict_slashes = False
 
 @app.route('/')
 def hello_world():
-    """ Returns Hell HBNB """
+    """ Return a specific string """
     return "Hello HBNB!"
 
 if __name__ == "__main__":
